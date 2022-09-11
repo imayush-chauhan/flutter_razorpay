@@ -66,7 +66,7 @@ class _RazorPayState extends State<RazorPay> {
     final int Amount = int.parse(amount) * 100;
 
     var options = {
-      'key': 'rzp_test_AWoXSYpqU2LzTC',
+      'key': key,
       'amount': Amount,
       'name': 'Name',
       'description': "test test",
